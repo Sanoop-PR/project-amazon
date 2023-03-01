@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>amazon</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <link rel="stylesheet" href="amazon.css">
+  <link rel="stylesheet" href="secondNav.css">
+  <link rel="stylesheet" href="slider.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body style="background-color: rgb(199, 199, 199);">
+
+  
+    <nav class="sticky-top" id="firstNav">
+      <!-- logo -->
+      <a href="" class="logo">
+        <img src="images/pngimg.com - amazon_PNG11.png" alt="">
+        <span>.in</span>
+      </a>
+
+      <!-- location  -->
+      <div id="location">
+        <span>Hello</span>
+        <div>
+          <a href="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt"
+              viewBox="0 0 16 16">
+              <path
+                d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+              <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+            </svg>
+            <p>select your address</p>
+          </a>
+        </div>
+      </div>
+
+      <!-- search box -->
+      <div id="search-box">
+        <select name="" id="">
+          <option value="">all</option>
+        </select>
+        <input type="text" placeholder=" Search Amazon.in">
+        <a href="" id="magnifying-glass-div">
+          <i class="fa-solid fa-magnifying-glass text-dark"></i>
+        </a>
+      </div>
+
+      <!-- select language  -->
+      <a href="" class="language" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        <img class="indianFlag" src="images/Flag-India.webp" alt="">
+        <span>EN</span>
+        <i class="fa-solid fa-caret-down"></i>
+      </a>
+
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" id="select-languages">
+        <li class="dropdown-item">
+          <input type="radio" id="english" name="languages">
+          <label for="english">English-EN</label>
+        </li>
+        <li>
+          <hr class="dropdown-divider" style="width: 80%; margin-left: 15%; ">
+        </li>
+        <li class="dropdown-item">
+          <input type="radio" id="hindi" name="languages">
+          <label for="Hindi">हिन्दी - HI</label>
+        </li>
+        <li class="dropdown-item">
+          <input type="radio" id="Tamil" name="languages">
+          <label for="Tamil">தமிழ் - TA</label>
+        </li>
+        <li class="dropdown-item">
+          <input type="radio" id="Telugu" name="languages">
+          <label for="Telugu">తెలుగు - TE </label>
+        </li>
+        <li class="dropdown-item">
+          <input type="radio" id="Kanada" name="languages">
+          <label for="Kanada">ಕನ್ನಡ - KN</label>
+        </li>
+        <li class="dropdown-item">
+          <input type="radio" id="Malayalam" name="languages">
+          <label for="Malayalam">മലയാളം - ML</label>
+        </li>
+        <li class="dropdown-item">
+          <input type="radio" id="Bengali" name="languages">
+          <label for="Bengali">বাংলা - BN</label>
+        </li>
+        <li class="dropdown-item">
+          <input type="radio" id="Marathi" name="languages" style="background-color: red;">
+          <label for="Marathi">मराठी - MR</label>
+        </li>
+        <li class="dropdown-item">
+          <a href="" style="text-decoration: none;">learn more</a>
+        </li>
+        <li>
+          <hr class="dropdown-divider" style="width: 80%; margin-left: 15%;">
+        </li>
+        <li class="dropdown-item">
+          <img class="indianFlag" src="images/Flag-India.webp" alt="">You are shopping on Amazon.in <br>
+          <a href="" style="text-decoration: none;">change country/region.</a>
+        </li>
+      </ul>
+
+
+
+
+
+      <!-- hello sign in account & lists -->
+      <a href="" class="sign-in text-decoration-none text-white" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+        <span>Hello, sign in</span><br>
+        <h5>Account & Lists</h5>
+        <i class="fa-solid fa-caret-down"></i>
+      </a>
+
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2" id="account-and-lists">
+
+        <div class="row">
+          <li class="dropdown-item text-center">
+            <button class="btn" type="button">sign-in</button>
+          </li>
+
+          <li class="dropdown-item text-center">
+            <small>New customer? <a href="">Start here.<a></small>
+          </li>
+          <li>
+            <hr class="dropdown-divider" style="width: 98%; margin-left: 1%;">
+          </li>
+
+
+          <div class="col-6">
+            <li>
+              <h6>Your Lists</h6>
+            </li>
+            <li>
+              <a href="">Create a Wish List</a>
+            </li>
+            <li>
+              <a href="">Wish from Any Website</a>
+            </li>
+            <li>
+              <a href="">Baby Wishlist</a>
+            </li>
+            <li>
+              <a href="">Discover Your Style
+              </a>
+            </li>
+            <li>
+              <a href="">Explore Showroom
+              </a>
+            </li>
+          </div>
+          <div class="col-6" id="Your-account-col">
+            <li>
+              <h6>Your Account
+              </h6>
+            </li>
+            <li>
+              <a href="">Your Account</a>
+            </li>
+            <li>
+              <a href="">Your Orders</a>
+            </li>
+            <li>
+              <a href="">Your Wish List</a>
+            </li>
+            <li>
+              <a href="">Your Recommendations</a>
+            </li>
+            <li>
+              <a href="">Your Prime Membership</a>
+            </li>
+            <li>
+              <a href="">Your Prime Video</a>
+            </li>
+            <li>
+              <a href="">Your Subscribe & Save Items</a>
+            </li>
+            <li>
+              <a href="">Memberships & Subscriptions</a>
+            </li>
+            <li>
+              <a href="">Your Free Amazon Business Account</a>
+            </li>
+            <li>
+              <a href="">Your Seller Account</a>
+            </li>
+            <li>
+              <a href="">Manage Your Content and Devices</a>
+            </li>
+          </div>
+        </div>
+      </ul>
+
+
+
+
+      <!-- return and order -->
+      <a href="" class="return text-decoration-none text-white">
+        <span>Returns</span>
+        <h5>& Orders</h5>
+      </a>
+
+
+      <!-- cart icon -->
+      <a href="" class="cart-icon">
+        <span>0</span>
+      </a>
+      <a href="" class="cart-text">
+        <h5>Cart</h5>
+      </a>
+    </nav>
+
+
+
+    <!-- second Navigation -->
+    <nav id="secondNavBar">
+
+      <div class="hover-white-outline-iinav">
+        <a href="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+        aria-controls="offcanvasScrolling">
+          <i class="fa-solid fa-bars"></i>
+          <span style="font-weight: 900;">All</span>
+        </a>
+      </div>
+
+
+      <div class="hover-white-outline-iinav">
+        <a href="">
+          <span>Sell</span>
+        </a>
+      </div>
+      <div class="hover-white-outline-iinav">
+        <a href="">
+          <span>Amazon miniTV</span>
+        </a>
+      </div>
+      <div class="hover-white-outline-iinav">
+        <a href="">
+          <span>Best Sellers</span>
+        </a>
+      </div>
+      <div class="hover-white-outline-iinav">
+        <a href="">
+          <span>Mobiles</span>
+        </a>
+      </div>
+      <div class="hover-white-outline-iinav">
+        <a href="">
+          <span>customer Service</span>
+        </a>
+      </div>
+      <div class="hover-white-outline-iinav">
+        <a href="">
+          <span>Today's Deals</span>
+        </a>
+      </div>
+      <div class="hover-white-outline-iinav">
+        <a href="">
+          <span>Electronics</span>
+        </a>
+      </div>
+      <div style="padding: 0;" class="hover-white-outline-iinav">
+        <a href="">
+          <img src="images/400x39-SWM_NP._CB613859124_.jpg" alt="">
+        </a>
+      </div>
+    </nav>
+
+ 
+
+
+  <main>
+    <div id="carouselTopBackground" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <a href=""><img src="images/61FzoyEYA-L._SX3000_.jpg" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <a href=""><img src="images/61gPOiG6YiL._SX3000_.jpg" class="d-block w-100" alt="..."><a >
+        </div>
+        <div class="carousel-item">
+          <a href=""><img src="images/71vdTR50hFL._SX3000_.jpg" class="d-block w-100" alt="..."><a >
+        </div>
+        <div class="carousel-item active" data-bs-interval="10000">
+          <a href=""><img src="images/8160RuRhSUL._SX3000_.jpg" class="d-block w-100" alt="..."><a >
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <a href=""><img src="images/613-gA49v1L._SX3000_.jpg" class="d-block w-100" alt="..."><a >
+        </div>
+        <div class="carousel-item">
+          <a href=""><img src="images/619rl+QqjwL._SX3000_.jpg" class="d-block w-100" alt="..."><a >
+        </div>
+        <div class="carousel-item">
+          <a href=""><img src="images/8160RuRhSUL._SX3000_.jpg" class="d-block w-100" alt="..."><a >
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselTopBackground" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselTopBackground" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </main>
+  
+  
+
+
+
+
+  <!-- shopping catagory -->
+  <div class="row px-4 shopping-catagory">
+
+    <!-- first box -->
+    <div class="col-4">
+      
+      <div class="row bg-white">
+        <h5>Home appliances | Up to 10% off on select cards</h5>
+        <div class="col-6">
+          <a href="">
+            <img src="images/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg" alt="">
+            <small>Air conditioners</small>
+          </a>
+        </div>
+        <div class="col-6">
+          <a href="">
+            <img src="images/fridge.jpg" alt="">
+            <small>Refrigerators</small>
+          </a>
+        </div>
+        <div class="col-6">
+          <a href="">
+            <img src="images/microwave.jpg" alt="">
+            <small>microwaves</small>
+          </a>
+        </div>
+        <div class="col-6">
+          <a href="">
+            <img src="images/washingMechine.jpg" alt="">
+            <small>washing machines</small>
+          </a>
+        </div>
+        <a href="" class="See-more">See more</a>
+      </div>
+    </div>
+
+
+    <!-- second box -->
+    <div class="col-4">
+      <div class="row bg-white">
+        <h5>Home appliances | Up to 10% off on select cards</h5>
+        <div class="col-6">
+          <a href="">
+            <img src="images/clothing.jpg" alt="">
+            <small>clothing</small>
+          </a >
+        </div>
+        <div class="col-6">
+          <a href="">
+            <img src="images/shoes.jpg" alt="">
+            <small>Footwear</small>
+          </a>
+        </div>
+        <div class="col-6">
+          <a href="">
+            <img src="images/watches.jpg" alt="">
+            <small>watches</small>
+          </a>
+        </div>
+        <div class="col-6">
+          <a href="">
+            <img src="images/bags.jpg" alt="">
+            <small>Bags & laggage</small>
+          </a>
+        </div>
+        <a href="" class="See-more">See all offers</a>
+      </div>
+    </div>
+
+
+    <!-- third box -->
+    <div class="col-4">
+      <div class="row bg-white">
+        <h5>Up to 60% off | Styles for men</h5>
+        <div class="col-6">
+          <a href="">
+            <img src="images/choppers.jpg" alt="">
+            <small>
+              Starting ₹149 | Choppers & more</small>
+          </a >
+        </div>
+        <div class="col-6">
+          <a href="">
+            <img src="images/lights.jpg" alt="">
+            <small>
+              Starting ₹87 | String lights &more</small>
+          </a>
+        </div>
+        <div class="col-6">
+          <a href="">
+            <img src="images/storages.jpg" alt="">
+            <small>Starting ₹87 | String lights & more</small>
+          </a>
+        </div>
+        <div class="col-6">
+          <a href="">
+            <img src="images/stickers.jpg" alt="">
+            <small>Starting ₹189 | Wall stickers & more</small>
+          </a>
+        </div>
+        <a href="" class="See-more">Shop now</a>
+      </div>
+    </div>
+
+    <!-- forth box -->
+    <div class="col-4">
+      <div class="row bg-white">
+        <h5>Upgrade your home | Amazon Brands & more</h5>
+        <div class="col-6">
+          <a href="">
+            <img src="images/Home appliances.jpg" alt="">
+            <small>Up to 50% off | Home appliances</small>
+          </a >
+        </div>
+        <div class="col-6">
+          <a href="">
+            <img src="images/bedsheet.jpg" alt="">
+            <small>Up to 50% off | Comforters & more</small>
+          </a>
+        </div>
+        <div class="col-6">
+          <a href="">
+            <img src="images/Conatiner-186x116._SY116_CB614658577_.jpg" alt="">
+            <small>Starting ₹169 | Containers & more</small>
+          </a>
+        </div>
+        <div class="col-6">
+          <a href="">
+            <img src="images/Photoframe-186x116._SY116_CB614658577_.jpg" alt="">
+            <small>Starting ₹229 | Photo frames, clocks & more</small>
+          </a>
+        </div>
+        <a href="" class="See-more">Shop now</a>
+      </div>
+    </div>
+
+    <!-- fifth box -->
+    <div class="col-4">
+      <div class="row bg-white">
+        <h5>Up to 60% off | Styles for women</h5>
+        <div class="col-6">
+          <a href="">
+            <img src="images/womens clothings.jpg" alt="">
+            <small>Women's Clothing</small>
+          </a>
+        </div>
+        <div class="col-6">
+          <a href="">
+            <img src="images/handbags_footwear.jpg" alt="">
+            <small>Footwear+Handbags</small>
+          </a>
+        </div>
+        <div class="col-6">
+          <a href="">
+            <img src="images/women-watches.jpg" alt="">
+            <small>Watches</small>
+          </a>
+        </div>
+        <div class="col-6">
+          <a href="">
+            <img src="images/fasion-jewllery.jpg" alt="">
+            <small>Fashion jewellery</small>
+          </a>
+        </div>
+        <a href="" class="See-more">See all offers</a>
+      </div>
+    </div>
+
+    <!-- sixth box -->
+    <div class="col-4">
+      <div class="row bg-white">
+        <h5>Up to 70% off | Clearance store</h5>
+        <div>
+          <a href=""><img src="images/Clearance_store_Desktop_CC_1x._SY304_CB628315133_.jpg" alt="" width="100%"><a >
+        </div>
+        <a href="" class="See-more">See more</a>
+      </div>
+    </div>
+
+    <!-- seventh box -->
+    <div class="col-4">
+      <div class="row bg-white">
+        <h5>Up to 70% off | Clearance store</h5>
+        <div class="col-6">
+          <a href="">
+            <img src="images/Glasscare1X._SY116_CB410830553_.jpg" alt="">
+            <small>Cleaning accessories</small>
+          </a>
+        </div>
+        <div class="col-6">
+          <a href="">
+            <img src="images/Rim_tyrecare1x._SY116_CB410830552_.jpg" alt="">
+            <small>Tyre & rim care</small>
+          </a>
+        </div>
+        <div class="col-6">
+          <a href="">
+            <img src="images/Vega_helmet_186x116._SY116_CB405090404_.jpg" alt="">
+            <small>Helmets</small>
+          </a>
+        </div>
+        <div class="col-6">
+          <a href="">
+            <img src="images/Vaccum1x._SY116_CB410830552_.jpg" alt="">
+            <small>Vacuum cleaner</small>
+          </a>
+        </div>
+        <a href="" class="See-more">See more</a>
+      </div>
+    </div>
+
+    <!-- eight box -->
+    <div class="col-4">
+      <div class="row bg-white">
+        <h5>Up to 60% off | Professional tools, testing & more</h5>
+        <div class="col-6">
+          <a href="">
+            <img src="images/Tools1x._SY116_CB424026090_.jpg" alt="">
+            <small>Professional tools</small>
+          </a>
+        </div>
+        <div class="col-6">
+          <a href="">
+            <img src="images/measuringInstruments.jpg" alt="">
+            <small>Measuring instruments</small>
+          </a>
+        </div>
+        <div class="col-6">
+          <a href="">
+            <img src="images/cleaning supplies.jpg" alt="">
+            <small>Measuring instruments</small>
+          </a>
+        </div>
+        <div class="col-6">
+          <a href="">
+            <img src="images/med1x._SY116_CB424026091_.jpg" alt="">
+            <small>Medical supplies</small>
+          </a>
+        </div>
+        <a href="" class="See-more">See more</a>
+      </div>
+    </div>
+
+    <!-- nineth box -->
+    <div class="col-4">
+      <div class="row text-center">
+        <img src="images/sponserd-Laptops-Sept2019._CB436595915_.jpg" alt="" width="300px" height="260px" >
+        <small class="text-end">sponsered
+          <b id="ad-feedback-sprite-right-2" style="display: inline-block; vertical-align: text-bottom; margin: 1px 0px; width: 14px; height: 12px; background: url(&quot;https://m.media-amazon.com/images/G/01/ad-feedback/info_icon_1Xsprite.png&quot;) 0px 0px no-repeat scroll transparent;"></b>
+        </small>
+        <div class="bg-white p-3">
+          <h5>Sign in for your best experience</h5>
+          <button type="button" class="btn btn-warning rounded-3 w-100">Sign in securely</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <!-- today deals collection carouel -->
+
+  <div class="row bg-white m-3" id="carousel-today-deals" class="carousel slide" data-ride="carousel">
+    <div class="module-heading">
+      <h4>Today’s Deals</h4>
+      <a href="">&nbsp;&nbsp; See all deals<a >
+    </div>
+    <div class="module ">
+  		<div class="thumb">
+  			<a href="" class="text-decoration-none">
+  			  <figure class="thumb-img">
+            <img src="images/IQ00.jpg" alt="">
+          </figure>
+          <figcaption>
+            <button class="btn bg-danger text-light">Up to 14% off</button>
+            <span>Deals off the Day</span>
+            <p>iQOO Neo 7 | Starting 3167/month</p>
+          </figcaption>
+  			</a >
+  		</div>
+  		<div class="thumb ">
+        <a href="" class="text-decoration-none">
+          <figure class="thumb-img">
+            <img src="images/pop7phone.jpg" alt="">
+          </figure>
+          <figcaption>
+            <button class="btn bg-danger text-light">Up to 14% off</button>
+            <span>Deals off the Day</span>
+            <p>Tecno Pop 7 Pro, Starting Rs. 6799</p>
+          </figcaption>
+        </a >
+  			
+  		</div>
+  		<div class="thumb">
+  			<a href="" class="text-decoration-none">
+  			  <figure class="thumb-img">
+            <img src="images/zebrionic headphones.jpg" alt="">
+          </figure>
+          <figcaption>
+            <button class="btn bg-danger text-light">Up to 14% off</button>
+            <span>Deals off the Day</span>
+            <p>Jaw Dropping Deals on Headsets</p>
+          </figcaption>
+  			</a >
+  		</div>
+  		<div class="thumb">
+  			<a href="" class="text-decoration-none">
+  			  <figure class="thumb-img">
+            <img src="images/ptronHeadset.jpg" alt="">
+          </figure>
+          <figcaption>
+            <button class="btn bg-danger text-light">Up to 14% off</button>
+            <span>Deals off the Day</span>
+            <p>Jaw Dropping Prices on Zebronics</p>
+          </figcaption>
+  			</a >
+  		</div>
+  		<div class="thumb">
+  			<a href="" class="text-decoration-none">
+  			  <figure class="thumb-img">
+            <img src="images/asusLaptop.jpg" alt="">
+          </figure>
+          <figcaption>
+            <button class="btn bg-danger text-light">Up to 14% off</button>
+            <span>Deals off the Day</span>
+            <p>Handpicked High Performance Intel,AMD Powered Laptops</p>
+          </figcaption>
+  			</a >
+  		</div>
+  		<div class="thumb">
+  			<a href="" class="text-decoration-none">
+  			  <figure class="thumb-img">
+            <img src="images/desktop.jpg" alt="">
+          </figure>
+          <figcaption>
+            <button class="btn bg-danger text-light">Up to 14% off</button>
+            <span>Deals off the Day</span>
+            <p>High Performance Desktop Computers; Upto INR 50000 Off</p>
+          </figcaption>
+  			</a >
+  		</div>
+  		<div class="thumb">
+  			<a href="" class="text-decoration-none">
+  			  <figure class="thumb-img">
+            <img src="images/sandisc.jpg" alt="">
+          </figure>
+          <figcaption>
+            <button class="btn bg-danger text-light">Up to 14% off</button>
+            <span>Deals off the Day</span>
+            <p>Upto 50% off on Storage devices</p>
+          </figcaption>
+  			</a >
+  		</div>
+  		<div class="thumb">
+  			<a href="" class="text-decoration-none">
+  			  <figure class="thumb-img">
+            <img src="images/networking device.jpg" alt="">
+          </figure>
+          <figcaption>
+            <button class="btn bg-danger text-light">Up to 14% off</button>
+            <span>Deals off the Day</span>
+            <p>Best selling Networking Devices</p>
+          </figcaption>
+  			</a >
+  		</div>
+  		<div class="thumb">
+  			<a href="" class="text-decoration-none">
+  			  <figure class="thumb-img">
+            <img src="images/vGuardProducts.jpg" alt="">
+          </figure>
+          <figcaption>
+            <button class="btn bg-danger text-light">Up to 14% off</button>
+            <span>Deals off the Day</span>
+            <p>Best Offers from V-Guard Products</p>
+          </figcaption>
+  			</a >
+  		</div>
+  		<div class="thumb">
+  			<a href="" class="text-decoration-none">
+  			  <figure class="thumb-img">
+            <img src="images/ibellDrilling.jpg" alt="">
+          </figure>
+          <figcaption>
+            <button class="btn bg-danger text-light">Up to 14% off</button>
+            <span>Deals off the Day</span>
+            <p>Top Deals on iBell Power Tools</p>
+          </figcaption>
+  			</a >
+  		</div>
+  		<div class="thumb">
+  			<a href="" class="text-decoration-none">
+  			  <figure class="thumb-img">
+            <img src="images/speakers.jpg" alt="">
+          </figure>
+          <figcaption>
+            <button class="btn bg-danger text-light">Up to 14% off</button>
+            <span>Deals off the Day</span>
+            <p>Blaupunkt Bestseller Speakers and Soundbars  Jaw Dropping Deals</p>
+          </figcaption>
+  			</a >
+  		</div>
+      <div class="thumb">
+  			<a href="" class="text-decoration-none">
+  			  <figure class="thumb-img">
+            <img src="images/wallpaper.jpeg" alt="">
+          </figure>
+          <figcaption>
+            <button class="btn bg-danger text-light">Up to 14% off</button>
+            <span>Deals off the Day</span>
+            <p>Wallpapers and wall art</p>
+          </figcaption>
+  			</a >
+  		</div>
+  		<div class="thumb">
+  			<a href="" class="text-decoration-none">
+  			  <figure class="thumb-img">
+            <img src="images/kitchenProduct.jpg" alt="">
+          </figure>
+          <figcaption>
+            <button class="btn bg-danger text-light">Up to 14% off</button>
+            <span>Deals off the Day</span>
+            <p>Kitchen Products Amazon Brands and More</p>
+          </figcaption>
+  			</a >
+  		</div>
+  		<div class="thumb">
+  			<a href="" class="text-decoration-none">
+  			  <figure class="thumb-img">
+            <img src="images/waterPurifier.jpg" alt="">
+          </figure>
+          <figcaption>
+            <button class="btn bg-danger text-light">Up to 14% off</button>
+            <span>Deals off the Day</span>
+            <p>iQOO Neo 7 | Starting 3167/month</p>
+          </figcaption>
+  			</a >
+  		</div>
+  		<div class="thumb">
+  			<a href="" class="text-decoration-none">
+  			  <figure class="thumb-img">
+            <img src="images/smartBub.jpg" alt="">
+          </figure>
+          <figcaption>
+            <button class="btn bg-danger text-light">Up to 14% off</button>
+            <span>Deals off the Day</span>
+            <p>iQOO Neo 7 | Starting 3167/month</p>
+          </figcaption>
+  			</a >
+  		</div>
+  	</div>
+  </div>
+
+
+
+
+
+  <!-- --------second slider image--Curated furniture picks for your home------ -->
+
+  <section class="p-4 bg-white m-3">
+    <div class="module-heading">
+      <h4>Up to 60% off | Curated furniture picks for your home</h4>
+      <a href="">&nbsp;&nbsp; Visit the store<a >
+    </div>
+  <div class="furniture">
+		<div class="furniture-Div">
+			<figure>
+        <img src="images/furniture1.jpg" alt="">
+      </figure>
+		</div>
+		<div class="furniture-Div">
+			<figure>
+        <img src="images/furniture2.jpg" alt="">
+      </figure>
+		</div>
+		<div class="furniture-Div">
+			<figure>
+        <img src="images/furniture3.jpg" alt="">
+      </figure>
+		</div>
+		<div class="furniture-Div">
+			<figure>
+        <img src="images/furniture4.jpg" alt="">
+      </figure>
+		</div>
+		<div class="furniture-Div">
+			<figure>
+        <img src="images/furniture5.jpg" alt="">
+      </figure>
+		</div>
+		<div class="furniture-Div">
+			<figure>
+        <img src="images/furniture6.jpg" alt="">
+      </figure>
+		</div>
+		<div class="furniture-Div">
+			<figure>
+        <img src="images/furniture7.jpg" alt="">
+      </figure>
+		</div>
+		<div class="furniture-Div">
+			<figure>
+        <img src="images/furniture8.jpg" alt="">
+      </figure>
+		</div>
+		<div class="furniture-Div">
+			<figure>
+        <img src="images/furniture9.jpg" alt="">
+      </figure>
+		</div>
+		<div class="furniture-Div">
+			<figure>
+        <img src="images/furniture10.jpg" alt="">
+      </figure>
+		</div>
+	</div>
+  </section>
+
+
+  <section class="section-secondSingInBtn bg-white">
+    <div class="d-grid gap-2 col-3 mx-auto secondSingInBtn">
+      <span>See personalized recommendations</span>
+      <button class="btn" type="button">Sign in</button>
+    </div>
+    <p class="text-center">New customer? <a href="">Start here.<a ></p>
+  </section>
+
+
+
+  <section>
+    <div class="d-grid gap-2 back-to-top pb-2">
+      <a href="" class="btn text-light" type="">Back to top</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footerDiv">
+      <div class="">
+        <ul>
+          <h6>Get to Know Us</h6>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Careers</a></li>
+          <li><a href="">Press Releases</a></li>
+          <li><a href="">Amazon Science</a></li>
+        </ul>
+      </div>
+      <div class="">
+        <ul>
+          <h6>Connect with Us</h6>
+          <li><a href="">Facebook<a ></li>
+          <li><a href="">Twitter<a ></li>
+          <li><a href="">Instagram<a ></li>
+        </ul>
+      </div>
+      <div class="">
+        <ul>
+          <h6>Make Money with Us</h6>
+          <li><a href="">Sell on Amazon</a></li>
+          <li><a href="">Sell under Amazon Accelerator</a></li>
+          <li><a href="">Protect and Build Your Brand</a></li>
+          <li><a href="">Amazon Global Selling</a></li>
+          <li><a href="">Become an Affiliate</a></li>
+          <li><a href="">Fulfilment by Amazon</a></li>
+          <li><a href="">Advertise Your Products</a></li>
+          <li><a href="">Amazon Pay on Merchants</a></li>
+        </ul>
+      </div>
+      <div class="">
+        <ul>
+          <h6>Let Us Help You</h6>
+          <li><a href="">COVID-19 and Amazon</a></li>
+          <li><a href="">Your Account</a></li>
+          <li><a href="">Returns Centre</a></li>
+          <li><a href="">100% Purchase Protection</a></li>
+          <li><a href="">Amazon App Download</a></li>
+          <li><a href="">Amazon Assistant Download</a></li>
+          <li><a href="">Help</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr style="color: rgb(0, 0, 0);">
+    <div class="middleFooter">
+      <div>
+        <img src="images/pngimg.com - amazon_PNG11.png" alt="">
+
+        <button id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-expanded="false">
+          <a href="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
+            <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+            </svg>
+            <span>English</span>
+          </a>
+        </button>
+
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton3" id="select-languages">
+          <li class="dropdown-item">
+            <input type="radio" id="english" name="languages">
+            <label for="english">English-EN</label>
+          </li>
+          <li>
+            <hr class="dropdown-divider" style="width: 80%; margin-left: 15%; ">
+          </li>
+          <li class="dropdown-item">
+            <input type="radio" id="hindi" name="languages">
+            <label for="Hindi">हिन्दी - HI</label>
+          </li>
+          <li class="dropdown-item">
+            <input type="radio" id="Tamil" name="languages">
+            <label for="Tamil">தமிழ் - TA</label>
+          </li>
+          <li class="dropdown-item">
+            <input type="radio" id="Telugu" name="languages">
+            <label for="Telugu">తెలుగు - TE </label>
+          </li>
+          <li class="dropdown-item">
+            <input type="radio" id="Kanada" name="languages">
+            <label for="Kanada">ಕನ್ನಡ - KN</label>
+          </li>
+          <li class="dropdown-item">
+            <input type="radio" id="Malayalam" name="languages">
+            <label for="Malayalam">മലയാളം - ML</label>
+          </li>
+          <li class="dropdown-item">
+            <input type="radio" id="Bengali" name="languages">
+            <label for="Bengali">বাংলা - BN</label>
+          </li>
+          <li class="dropdown-item">
+            <input type="radio" id="Marathi" name="languages" style="background-color: red;">
+            <label for="Marathi">मराठी - MR</label>
+          </li>
+          <li class="dropdown-item">
+            <a href="" style="text-decoration: none;">learn more</a>
+          </li>
+          <li>
+            <hr class="dropdown-divider" style="width: 80%; margin-left: 15%;">
+          </li>
+          <li class="dropdown-item">
+            <img class="indianFlag" src="images/Flag-India.webp" alt="" style="width: 15px;">You are shopping on Amazon.in <br>
+            <a href="" style="text-decoration: none;">change country/region.</a>
+          </li>
+        </ul>
+        
+      </div>
+
+      <div class="country">
+        <ul>
+          <li><a href="">Austalia</a></li>
+          <li><a href="">Brazil</a></li>
+          <li><a href="">Canada</a></li>
+          <li><a href="">China</a></li>
+          <li><a href="">France</a></li>
+          <li><a href="">Germany</a></li>
+          <li><a href="">Italy</a></li>
+          <li><a href="">Japan</a></li>
+          <li><a href="">Mexico</a></li>
+          <li><a href="">Netherlands</a></li>
+          <li><a href="">Poland</a></li>
+          <li><a href="">Singapore</a></li>
+          <li><a href="">Spain</a></li>
+          <li><a href="">Turkey</a></li>
+          <li><a href="">United Arab Emirates</a></li>
+          <li><a href="">United kingdom</a></li>
+          <li><a href="">United States</a></li>
+        </ul>
+        <br>
+      </div>
+    </div>
+
+    <div class="secondlastFooter">
+      <div class="ps-5">
+        <div class="row ps-5">
+          
+          <div class="col-2">
+            <div class="p-3 text-light">
+              <a href="">
+                <h6>AbeBooks</h6> 
+                <p>Books, art </p>
+                <p>& col-2lectibles</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="p-3 text-light">
+              <a href="">
+                <h6>Amazon Web Services</h6> 
+               <p>Scalable Cloud </p>
+                <p>Computing Services</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="p-3 text-light">
+              <a href="">
+                <h6>Audible</h6> 
+                <p>Download</p> 
+                <p>Audio Books</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="p-3 text-light">
+              <a href="">
+                <h6>DPReview</h6> 
+                <p>Digital </p>
+                <p>Photography</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="p-3 text-light">
+              <a href="">
+                <h6>IMDb</h6> 
+                <p>Movies, TV </p>
+                <p>& Celebrities</p>
+              </a>
+            </div>
+          </div>
+        </div> 
+        <div class="row ps-5"> 
+          <!-- <div class="col-2"></div> -->
+          <div class="col-2">
+            <div class="p-3 text-light">
+              <a href="">
+                <h6>Shopbop</h6> 
+                <p>Designer </p>
+                <p>Fashion Brands</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="p-3 text-light">
+              <a href="">
+                <h6>Amazon Business</h6> 
+                <p>Everything For</p> 
+                <p>Your Business</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="p-3 text-light">
+              <a href="">
+                <h6>Prime Now</h6> 
+                <p>2-Hour Delivery </p>
+                <p>on Everyday Items</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="p-3 text-light">
+              <a href="">
+                <h6>Amazon Prime Music</h6> 
+                <p>90 million songs, ad-free</p> 
+                <p>Over 15 million podcast episodes</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="p-3 text-light">
+              <a href=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="finalLastFooter text-center">
+        <div>
+          <a href="">Conditions of Use & Sale</a>
+          <a href="">Privacy Notice</a>
+          <a href="">Interest-Based Ads</a>
+        </div>
+        <p>© 1996-2023, Amazon.com, Inc. or its affiliates</p>
+      </div>
+    </div>
+  </footer>
+  
+						
+ 
+						
+
+
+  
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>     
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+ 
+
+</body>
+<!-- bootstrap js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</html>
